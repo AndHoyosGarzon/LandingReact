@@ -49,7 +49,7 @@ function Links({ link1, link2, link3, link4 }) {
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-xxl bg-dark">
+    <nav className="navbar fixed-top navbar-expand-xxl bg-dark">
       <div className="container-fluid">
         <Branding titleBrand="Start Bootstrap" />
         <Links link1="Home" link2="About" link3="Services" link4="Contact" />
